@@ -4,6 +4,7 @@
     "description": "Backend para NoSQL",
     "main": "index.js",
     "scripts": {
+        "build": "node ./src/server.js",
         "start": "node ./src/index.js"
     },
     "author": "TEAM",
