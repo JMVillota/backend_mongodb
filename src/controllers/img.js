@@ -3,7 +3,7 @@ const Img = require("../models/img");
 
 const connectDB = async() => {
     try {
-        await mongoose.connect('mongodb+srv://paquinatoau:MCwfpotYHIibxXnQ@cluster0.hwb4wuh.mongodb.net/dbCondominos?retryWrites=true&w=majority')
+        await mongoose.connect('mongodb://mongo:SXjcC62mhaVeXYRm5zfc@containers-us-west-187.railway.app:7622')
         console.log('mongodb connection established');
     } catch (error) {
         console.log(error)
