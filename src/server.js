@@ -3,6 +3,7 @@ const serverless = require('serverless-http');
 const bodyParser = require('body-parser');
 const cors = require("cors")
 const app = express();
+require('async')
 
 //MIDDLEWARES
 app.use(express.urlencoded({ extended: false }));
